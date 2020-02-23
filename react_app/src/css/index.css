@@ -1,0 +1,16 @@
+.left{
+    width: 20%;
+    height: 500px;
+    float: left;
+    background-color: #ccc;
+}
+
+.right{
+    width: 80%;
+    height: 500px;
+    float: left;
+}
+
+.myactive{
+    color:red;
+}
