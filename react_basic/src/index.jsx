@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 import bootcss from 'bootstrap/dist/css/bootstrap.css'
 // import GetForm from '@/components/GetForm'
 
-import ChangeOpacity from '@/components/ChangeOpacity'
+import Router from './router'
 
-ReactDOM.render(<ChangeOpacity  />,document.getElementById('div1'))
+ReactDOM.render(<Router  />,document.getElementById('div1'))
 

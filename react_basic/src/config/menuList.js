@@ -1,0 +1,35 @@
+module.exports = [
+    {
+        key:'/admin/home',
+        title:'首页'
+    },
+    {
+        key:'/admin/func',
+        title:'功能',
+        children:[
+            {
+                key:'/admin/func/hotkeys',
+                title:'热键hotkeys'
+            },
+            {
+                key:'/admin/func/autolink',
+                title:'自动链接'
+            },
+            {
+                key:'/admin/func/imglink',
+                title:'图片地址'
+            }
+        ]
+    },
+    {
+        key:'/admin/table',
+        title:'表格',
+        children:[
+            {
+                key:'/admin/table/datasheet',
+                title:'表格datasheet'
+            }
+        ]
+    }
+]
+

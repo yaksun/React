@@ -8,6 +8,7 @@ class mylink extends Component {
     }
     render() {
         return (
+            // {...this.props}解构自己
             <NavLink {...this.props}  activeClassName="myactive"/>
         );
     }
