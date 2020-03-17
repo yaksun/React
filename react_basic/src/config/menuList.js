@@ -18,6 +18,10 @@ module.exports = [
             {
                 key:'/admin/func/imglink',
                 title:'图片地址'
+            },
+            {
+                key:'/admin/func/marquee',
+                title:'跑马灯'
             }
         ]
     },

@@ -11,6 +11,7 @@ import Hotkeys from './pages/func/hotkeys'
 import Autolink from './pages/func/autolink'
 import Datasheet from './pages/table/datasheet'
 import ImgLink from './pages/func/imglink'
+import Marquee from './pages/func/marquee'
 
 export default class Router extends React.Component{
     render(){
@@ -24,6 +25,7 @@ export default class Router extends React.Component{
                                     <Route path='/admin/func/hotkeys' component={Hotkeys}></Route>
                                     <Route path='/admin/func/autolink' component={Autolink}></Route>
                                     <Route path='/admin/func/imglink' component={ImgLink}></Route>
+                                    <Route path='/admin/func/marquee' component={Marquee}></Route>
                                     <Route path='/admin/table/datasheet' component={Datasheet}></Route>
                                     <Redirect path='/admin' to='/admin/home'></Redirect>
                                 </Admin>

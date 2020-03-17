@@ -1,0 +1,23 @@
+#gongao{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: '宋体';
+    background: #DDE5ED;
+    color: #0C77CF;
+    font-weight: bold;
+}
+
+#scroll_div{
+    width:98%;
+    height:30px;
+    margin:0 auto;
+    white-space:nowrap;
+    overflow:hidden
+}
+
+#scroll_begin,  #scroll_end{
+    display:inline;
+}
